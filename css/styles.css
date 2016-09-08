@@ -1,0 +1,35 @@
+
+
+.btn-addon
+{
+    background-image: linear-gradient(180deg, rgb(82, 168, 231) 5%, rgb(43, 112, 195) 100%);
+    border: 1px solid #2B70C3;
+}
+
+.btn-addon:hover
+{
+    background-color: none;
+}
+
+.form-custom
+{
+    border: 1px solid #dddddd;
+    box-shadow: none;
+    background-color: #F5F5F5;
+    padding: 2px;
+}
+
+
+label
+{
+    color: #4c4c4c;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Verdana;
+}
+
+.customer
+{
+    width: 250px;
+}
+

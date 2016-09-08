@@ -1,0 +1,130 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Quattrocento Sans;
+    color: #4c4c4c;
+}
+
+.container
+{
+    min-width: 650px;
+    max-width: 790px;
+    padding: 10px;
+}
+
+p
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.col-1
+{
+    width: 80px;
+}
+
+.col-2
+{
+    width: 140px;
+}
+
+.col-3
+{
+    width: 90px;
+    text-align: center;
+}
+
+.col-4
+{
+    width: 60px;
+    text-align: center;
+}
+
+input[type="text"]
+{
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 20px;
+}
+
+th
+{
+    color: #FFF;
+}
+
+thead th.col-3, .plan
+{
+    background-color: #e74f3a;
+}
+
+thead th.col-4, .extras
+{
+    background-color: #8f9193;
+}
+
+tbody td
+{
+    background-color: #f0f1f1;
+}
+
+tr
+{
+    border-top: 2px solid #fff;
+}
+
+td, th
+{
+    padding: 5px 10px;
+}
+
+.prices td
+{
+    height: 50px;
+}
+
+.frequency
+{
+}
+
+.frequency th
+{
+    background-color: #8f9193;
+}
+
+.row-2
+{
+    background-color: #e74f3a;
+    color: #FFF;
+}
+
+.frequency tbody
+{
+    text-align: center;
+}
+
+.col-11
+{
+    text-align: left;
+}
+
+.discount
+{
+    color: #b94a48;
+}
+

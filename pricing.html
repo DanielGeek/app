@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>myabakus->account</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quattrocento+Sans">
+    </head>
+    <body>
+        <div class="container">
+            <table class="prices">
+                <thead>
+                    <th class="col-1"></th>
+                    <th class="col-2"></th>
+                    <th class="col-3">Costo total $24.90/mes</th>
+                    <th class="col-4">Precio mensual*</th>
+                    <th class="col-5"></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th rowspan="3" class="plan">Plan</th>
+                        <td class="">Heroe de Ventas</td>
+                        <td class="col-3">
+                            <input type="radio">
+                        </td>
+                        <td class="col-4">9.90</td>
+                        <td>Facturación y Cuentas por Cobrar</td>
+                    </tr>
+                    <tr>
+                        <td>Maximizador de Ganancia</td>
+                        <td class="col-3">
+                            <input type="radio">
+                        </td>
+                        <td class="col-4">16.90</td>
+                        <td>Heroe de Ventas <b>más</b> Gastos y Control de Efectivo</td>
+                    </tr>
+                    <tr>
+                        <td>Exterminador de Agujeros Negros</td>
+                        <td class="col-3">
+                            <input type="radio" checked="checked">
+                        </td>
+                        <td class="col-3 col-4">20.00</td>
+                        <td>Maximizador de Ganancia <b>más</b> Control de Inventario (<span class="discount">20% menos</span> del precio actual de $24.90)</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="6" class="extras">Extras</th>
+                        <td>Locales adicionales</td>
+                        <td class="col-3">
+                            <input type="text">
+                        </td>
+                        <td class="col-4">9.90</td>
+                        <td>Por cada local adicional</td>
+                    </tr>
+                    <tr>
+                        <td>Usuarios adicionales</td>
+                        <td class="col-3">
+                            <input type="text">
+                        </td>
+                        <td class="col-4">4.90</td>
+                        <td>Por cada usuario adicional</td>
+                    </tr>
+                    <tr>
+                        <td>Diseño personalizado de factura</td>
+                        <td class="col-3">
+                            <input type="checkbox">
+                        </td>
+                        <td class="col-4">4.90</td>
+                        <td>Use su propio diseño de factura en formato digital o pre-impreso</td>
+                    </tr>
+                    <tr>
+                        <td>Categorize sus clientes y proveedores</td>
+                        <td class="col-3">
+                            <input type="checkbox">
+                        </td>
+                        <td class="col-4">4.90</td>
+                        <td>Agrupe sus clientes y proveedores y obtenga reportes por dichos grupos.</td>
+                    </tr>
+                    <tr>
+                        <td>Manejo de ordenes</td>
+                        <td class="col-3">
+                            <input type="checkbox">
+                        </td>
+                        <td class="col-4">4.90</td>
+                        <td>Procese múltiples ordenes rápidamente (despacharlas e imprimir las facturas en lotes)</td>
+                    </tr>
+                    <tr>
+                        <td>Manejo de cotizaciones</td>
+                        <td class="col-3">
+                            <input type="checkbox">
+                        </td>
+                        <td class="col-4">4.90</td>
+                        <td>Cree y envíe cotizaciones y hágales seguimiento hasta que se conviertan (o no) en facturas</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>*Los precios estan en dólares americanos y los cargos mensuales que se listan en esta página son para seis meses de pre-pago e incluyen un 20% de descuento sobre el cargo mes a mes.</p>
+            <h3>Seleccione la frecuencia de pago</h3>
+            <table class="frequency">
+                <thead>
+                    <tr>
+                        <th>Periodo</th>
+                        <th>Por periodo</th>
+                        <th>Por mes</th>
+                        <th>Descuento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-11">
+                            <input type="radio">&nbsp;&nbsp;1 mes
+                        </td>
+                        <td>$25.00</td>
+                        <td>$25.00</td>
+                        <td>0%</td>
+                    </tr>
+                    <tr>
+                        <td class="row-2 col-11">
+                            <input type="radio" checked="checked">&nbsp;&nbsp;6 meses
+                        </td>
+                        <td class="row-2">$120.00</td>
+                        <td class="row-2">$20.00</td>
+                        <td class="row-2">20%</td>
+                    </tr>
+                    <tr>
+                        <td class="col-11">
+                            <input type="radio">&nbsp;&nbsp;12 meses
+                        </td>
+                        <td>$210.00</td>
+                        <td>$17.50</td>
+                        <td>30%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

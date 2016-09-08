@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Login - myAbakus</title>
+        <link href="css/login.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Cabin:400|Quattrocento+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="wapper">
+            <div class="bottom">
+                <div class="form-wapper">
+                    <a class="logo" href="http://www.myabakus.com/">Home</a>
+                    <div class="form-content">
+                        <form method="post" id="web_login_form" action="https://www.myabakus.com/app/authenticate">
+                            <h2>Login to your account<span class="lock">&nbsp;</span></h2>
+                            <div class="row">
+                                <input type="text" name="username" placeholder="Username" id="username" value="">
+                            </div>
+                            <div class="row">
+                                <input type="password" placeholder="Password" name="password" id="password" value="">
+                            </div>
+                            <div class="submit">
+                                <a id="forgot">Forgot your password?</a> 
+                                <a class="button" id="enter">Login</a> 
+                                <input type="submit" name="send" class="send">
+                            </div>
+                        </form>
+                        <div id="forgot_wrapper" style="display: none">
+                            <h2>Forgot your password?<span class="lock">&nbsp;</span></h2>
+                            <div class="row">
+                                <label>Email</label>
+                                <input type="text" id="email">
+                            </div>
+                            <div class="row clear" style="display: none">
+                                <label>Company</label>
+                                <span class="select"> <span class="ss">&nbsp;</span> <select id="company_id" name="company_id" style="opacity: 0;"></select> </span>
+                            </div>
+                            <div class="submit">
+                                <span class="cancel_wrapper"><a class="cancel">Cancel</a> or</span> 
+                                <a class="button search" id="forgot_send">Search</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

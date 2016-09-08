@@ -1,0 +1,209 @@
+
+
+a, b, body, div, form, html, img, li, p, span, table, tbody, td, tfoot, th, thead, tr, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body
+{
+    line-height: 1;
+    font: 400 12px verdana,sans-serif;
+    color: #4c4c4c;
+    padding: 5px 8px;
+    background: url(../images/background.svg);
+    min-width: 960px;
+    visibility: visible!important;
+}
+
+#shortcut {
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 49px;
+}
+
+#shortcut, #tabs, .u2 {
+    overflow: hidden;
+}
+
+.shortcut-left {
+    position: relative;
+    overflow: hidden;
+}
+
+.shortcut-right {
+    float: right;
+    width: 34%;
+    text-align: right;
+    padding-right: 1px;
+    margin-top: 7px;
+}
+
+.shortcut-right, b {
+    font-weight: 700;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu, .layer {
+    background: #080;
+    background: linear-gradient(180deg,#080 0,#050 100%);
+    border-radius: 5px;
+}
+
+.shortcut-left:before {
+    background: url(../images/logo.svg) no-repeat;
+    width: 250px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+}
+
+.d1:after, .d2:after, .li.on:before, .shortcut-left:before, .wd-wrapper>.wd-arrow:before {
+    content: "";
+}
+
+a.sla {
+    font-size: 20px;
+    height: 24px;
+    margin-top: 25px;
+    margin-left: 260px;
+    cursor: default;
+}
+
+.icon-notice, a.sla {
+    display: inline-block;
+}
+
+a.sla, a.sra, a.sra:hover {
+    text-decoration: none;
+}
+
+a.sla, a.sra {
+    color: #4c4c4c;
+}
+
+.ue, .uep>.ue, a.sla {
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #369;
+}
+
+a.sra {
+    text-decoration: none;
+    color: #4c4c4c;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+
+a.sra:hover {
+    color: #369;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.srl:first-child {
+    margin-bottom: 4px;
+}
+.srl {
+    display: block;
+    color: #4c4c4c;
+    white-space: nowrap;
+}
+
+#u1 {
+    width: 650px;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.l1, .l2 {
+    display: block;
+    float: left;
+    position: relative;
+    width: 130px;
+}
+
+.a1 {
+    border-left: 1px solid #006e00;
+    font: 400 16px/30px arial, sans-serif;
+}
+
+.a1, .a2 {
+    color: #fff;
+    display: block;
+    height: 30px;
+}
+
+.d-nav, .d-nav + .d1, a.a1:hover, a.a2:hover, .l1.current > .a1, .l2.current > .a2, .l1.current > .d1 {
+    background-color: #000;
+    text-decoration: none;
+}
+
+.l1.current > .a1, .l1.current + .l1 > .a1, .d-nav + .d1, .l1.current > .d1 {
+    border-left: 1px solid #555;
+}
+
+.d1 {
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    border-left: 1px solid #006e00;
+}
+
+.d1:after {
+    left: 10px;
+}
+.d2:after, .d1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 6px solid transparent;
+    height: 0;
+    width: 0;
+    border-top-color: #fff;
+    top: 10px;
+    border-style: solid outset;
+}
+
+.d2 {
+    position: absolute;
+    cursor: pointer;
+}
+
+.d2:after {
+    left: 6px;
+}
+.d2:after, .d1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 6px solid transparent;
+    height: 0;
+    width: 0;
+    border-top-color: #fff;
+    top: 10px;
+    border-style: solid outset;
+}
+
+.s1 {
+    width: 99px;
+}
