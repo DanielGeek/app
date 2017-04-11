@@ -9,7 +9,8 @@
 
 body
 {
-    font-family: Quattrocento Sans;
+    font-family: Arial;
+    font-size: 14px;
     color: #4c4c4c;
 }
 
@@ -107,7 +108,7 @@ td, th
     background-color: #8f9193;
 }
 
-.row-2
+.row-3
 {
     background-color: #e74f3a;
     color: #FFF;
@@ -128,3 +129,7 @@ td, th
     color: #b94a48;
 }
 
+.subtitle
+{
+    font-weight: bold;
+}
