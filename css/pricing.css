@@ -36,11 +36,17 @@ table
 .col-1
 {
     width: 80px;
+    background-color: black;
+    text-align: right;
 }
+
 
 .col-2
 {
     width: 140px;
+    background-color: black;
+    text-align: left;
+    font-size: 20px;
 }
 
 .col-3
@@ -64,6 +70,13 @@ input[type="text"]
     height: 20px;
 }
 
+.premium  {
+    color: white;
+    background-color: black;
+    width: 200px;
+    text-align: center;
+}
+
 th
 {
     color: #FFF;
@@ -74,9 +87,35 @@ thead th.col-3, .plan
     background-color: #e74f3a;
 }
 
+.col-5 {
+    background-color: #8f9193;
+}
+
 thead th.col-4, .extras
 {
     background-color: #8f9193;
+}
+
+
+.extras  {
+     background-color: color: #FFE79F;
+}
+.check {
+    text-align: center;
+    background-color: color: #FFE79F;
+}
+.precio {
+    text-align: center;
+    background-color: color: #FFE79F;
+}
+.texto {
+    
+}
+
+
+tr.ultima > .check, .precio, .texto {
+    
+    background-color: #FFE79F;
 }
 
 tbody td
