@@ -1,89 +1,86 @@
-
-
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body
-{
+body {
     font-family: Arial;
     font-size: 14px;
     color: #4c4c4c;
 }
 
-.container
-{
+.container {
     min-width: 650px;
     max-width: 790px;
     padding: 10px;
 }
 
-p
-{
+p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-table
-{
+table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.col-1
-{
+.col-1 {
     width: 80px;
     background-color: black;
     text-align: right;
 }
 
-
-.col-2
-{
+.col-2 {
     width: 140px;
     background-color: black;
     text-align: left;
     font-size: 20px;
 }
 
-.col-3
-{
+.col-3 {
+    width: 100px;
+    text-align: center;
+}
+
+.col-4 {
     width: 90px;
     text-align: center;
 }
 
-.col-4
-{
-    width: 60px;
-    text-align: center;
-}
-
-input[type="text"]
-{
-    width: 50px;
+input[type="text"] {
+    width: 20px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 4px;
     height: 20px;
 }
 
-.premium  {
-    color: white;
-    background-color: black;
-    width: 200px;
+input[type="checkbox"] {
+    width: 20px;
     text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 20px;
 }
 
-th
-{
+thead th.col-five {
+    background-color: #8f9193 !important;
+    color: ;
+}
+
+thead th.color-change {
+    background-color: #fde8ca !important;
+    color: #808080;
+}
+
+th {
     color: #FFF;
 }
 
-thead th.col-3, .plan
-{
+thead th.col-3,
+.plan {
     background-color: #e74f3a;
 }
 
@@ -91,84 +88,64 @@ thead th.col-3, .plan
     background-color: #8f9193;
 }
 
-thead th.col-4, .extras
-{
+thead th.col-4,
+.extras {
     background-color: #8f9193;
 }
 
-
-.extras  {
-     background-color: color: #FFE79F;
-}
-.check {
-    text-align: center;
-    background-color: color: #FFE79F;
-}
-.precio {
-    text-align: center;
-    background-color: color: #FFE79F;
-}
-.texto {
-    
-}
-
-
-tr.ultima > .check, .precio, .texto {
-    
-    background-color: #FFE79F;
-}
-
-tbody td
-{
+tbody td {
     background-color: #f0f1f1;
+    /*    border-right: 2px solid #d3d3d3; */
 }
 
-tr
-{
+.prices th.col-one {
+    border-right: 0px solid #d3d3d3;
+}
+
+.prices th.premium {
+    border-right: 0px solid #d3d3d3;
+}
+
+.prices th {
+    /*    border-right: 2px solid #d3d3d3;*/
+}
+
+tr {
     border-top: 2px solid #fff;
 }
 
-td, th
-{
+td,
+th {
     padding: 5px 10px;
 }
 
-.prices td
-{
+.prices td {
     height: 50px;
 }
 
-.frequency
-{
-}
+.frequency {}
 
-.frequency th
-{
+.frequency th {
     background-color: #8f9193;
 }
 
-.row-3
-{
+.row-3 {
     background-color: #e74f3a;
     color: #FFF;
 }
 
-.frequency tbody
-{
+.frequency tbody {
     text-align: center;
 }
 
-.col-11
-{
+.col-11 {
     text-align: left;
 }
 
-.discount
-{
+.discount {
     color: #b94a48;
 }
 
-.subtitle
-{
+.subtitle {
     font-weight: bold;
 }
